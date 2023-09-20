@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="CSS/estilos.css">
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+ <script src="JS/menu.js"></script>
+  <script src="https://kit.fontawesome.com/f8ec4fb808.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div>
+      <img src="src/note.jpg" width="100">
+      <h1>Tú Primer Computadora</h1>
+    </div>
+  </header>
+  <nav>
+    <button class="nav-boton" onclick="accion()">Menú</button>
+    <a href="index.html" class="nav-enlace desaparece">Home</a>
+    <a href="Cuenta.html" class="nav-enlace desaparece">Cuenta</a>
+    <a href="Empresa.html" class="nav-enlace desaparece">Empresa</a>
+    <a href="Servicio al cliente.html" class="nav-enlace desaparece">Servicio al cliente</a>
+    <a href="Contacto.html" class=" activo nav-enlace desaparece">Contacto</a>
+    <a href="Ofertas de la Semana.html" class="nav-enlace desaparece">Ofertas de la Semana</a>
+
+  </nav>
+  <form class="formulario" name="form_main">
+    <main>
+      
+      <label class="correr" for="Información del cliente"><b>Información del cliente:</b></label><br><br>
+      <fieldset>
+        <p>
+          <label for="Nombre">Nombre:</label>
+          <input type="text" required name="nombre" placeholder="Tu nombre">
+          <br><br>
+        </p>
+        <p>
+          <label for="Apellido">Apellido:</label>
+          <input type="text" required name="apellido" placeholder="Tu apellido">
+          <br><br>
+        </p>
+        <p>
+          <label for="Email">Email:</label>
+          <input type="text" required name="email" placeholder="Email">
+          <br><br>
+        </p>
+      </fieldset>
+      <label class="correr" for="Ingrese su mensaje"><b>Ingrese su mensaje:</b></label>
+      <br><br>
+      <fieldset>
+        <label for="text">Texto:</label> <br>
+        <textarea name="text" id="text" cols="30" rows="10" oninput="contadorTexto()"></textarea> <br>
+        <label for="caracteres">Caracteres contados:</label><span id="caracteres"></span><br>
+        <label for="palabras">Palabras:</label><span id="palabras"></span><br>
+        <label for="lineas">Lineas:</label><span id="lineas"></span><br>
+        <input type="submit" value="Enviar">
+
+      </fieldset>
+    
+      <label class="correr" for="Informacion de contacto"><b>Información de contacto: </b></label><br><br>
+      <fieldset>
+        <p>
+          <label for="Email:"> <i
+              class="fa-solid fa-envelope"></i><b><i>Email: </i></b>tuproximacompu@gmail.com</label><br><br>
+        </p>
+        <p>
+          <label for="Celular"> <i class="fa-solid fa-mobile"></i><b><i>Celular: </i></b>3435123456</label><br><br>
+        </p>
+        <p>
+          <label for="Teléfono Fijo"> <i class="fa-solid fa-phone"></i><b><i>Teléfono
+                fijo: </i></b>4363431</label><br><br>
+        </p>
+        <p>
+          <label for="Información de ubicación"><b>Información de ubicación:</b></label><br><br>
+        </p>
+        <p>
+          <label for="Ubicación"><b><i>Ubicación: </i></b>Entre Ríos 3434</label><br><br>
+        </p>
+      </fieldset>
+  </form>
+
+  </main>
+
+  <footer>Todos los derechos reservados</footer>
+
+ 
+</body>
+
+</html>

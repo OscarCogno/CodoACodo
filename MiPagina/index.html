@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="CSS/estilos.css">
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="JS/menu.js"></script>
+  <script src="https://kit.fontawesome.com/f8ec4fb808.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div>
+      <img src="src/note.jpg" width="100">
+      <h1>Tú Primer Computadora</h1>
+    </div>
+  </header>
+  <nav>
+    <button class="nav-boton" onclick="accion()">Menú</button>
+    <a href="index.html" class=" activo nav-enlace desaparece">Home</a>
+    <a href="Cuenta.html" class="nav-enlace desaparece">Cuenta</a>
+    <a href="Empresa.html" class="nav-enlace desaparece">Empresa</a>
+    <a href="Servicio al cliente.html" class="nav-enlace desaparece">Servicio al cliente</a>
+    <a href="Contacto.html" class="nav-enlace desaparece">Contacto</a>
+    <a href="Ofertas de la Semana.html" class="nav-enlace desaparece">Ofertas de la Semana</a>
+
+  </nav>
+
+  <main>
+    <div class="flex-container">
+      <div>
+        <h3><b>Productos</b></h3>
+        <form class="formulario">
+
+          
+            <select>
+              <option>Placa Madre</option>
+              <option>Microcontrolador</option>
+              <option>Discos</option>
+              <option>Memoria</option>
+            </select><br><br>
+            
+          
+        </form>
+      </div>
+
+      <div>
+        <h3><b>Iniciar sesión</b></h3>
+
+
+        <form class="formulario">
+          <p>
+            <label>Email:</label>
+            <input type="Email" autofocus placeholder="Email" required><br><br>
+          </p>
+          <p>
+            <label>Contraseña:</label>
+            <input type="password" placeholder="Su contraseña" required><br><br>
+          </p>
+          <!-- <button>Entrar</button> -->
+          <input type="submit" value="Entrar" />
+        </form>
+
+
+
+        <h3>Recuperer contraseña</h3>
+        <form class="formulario">
+          <p>
+            <label>Email:</label>
+            <input type="Email" autofocus placeholder="Email" required><br><br>
+          </p>
+          <!-- <button>Enviar</button> -->
+          <input type="submit" value="Enviar">
+        </form>
+
+      </div>
+
+
+      <div>
+        <form class="formulario">
+          <h3 class="izquierda"> <b>Horarios de Atención:</b></h3><br><br>
+          <label class="center" for="Horarios"> <i>Lunes:</i> 08:00-12:00,16:00-20:00</label><br><br>
+          <label class="center" for="Horarios"><i> Martes:</i> 08:00-12:00,16:00-20:00</label><br><br>
+          <label class="center" for="Horarios"><i> Miercoles:</i> 08:00-12:00,16:00-20:00</label><br><br>
+          <label class="center" for="Horarios"><i> Jueves:</i> 08:00-12:00,16:00-20:00</label><br><br>
+          <label class="center" for="Horarios"><i> Viernes:</i> 08:00-12:00,16:00-20:00</label><br><br>
+          <label class="center" for="Horarios"><i> Sabados:</i> 08:00-12:00</label><br><br>
+        </form>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>Todos los derechos reservados</footer>
+</body>
+
+</html>

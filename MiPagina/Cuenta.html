@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="JS/menu.js"></script>
+    <script src="https://kit.fontawesome.com/f8ec4fb808.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="src/note.jpg" width="100">
+            <h1>Tú Primer Computadora</h1>
+        </div>
+    </header>
+    <nav>
+        <button class="nav-boton" onclick="accion()">Menú</button>
+        <a href="index.html" class="nav-enlace desaparece">Home</a>
+        <a href="Cuenta.html" class=" activo nav-enlace desaparece">Cuenta</a>
+        <a href="Empresa.html" class="nav-enlace desaparece">Empresa</a>
+        <a href="Servicio al cliente.html" class="nav-enlace desaparece">Servicio al cliente</a>
+        <a href="Contacto.html" class="nav-enlace desaparece">Contacto</a>
+        <a href="Ofertas de la Semana.html" class="nav-enlace desaparece">Ofertas de la Semana</a>
+
+    </nav>
+    <main>
+
+        <h1><b>Registro de usuario</b></h1>
+        
+            <fieldset>
+                <form class="formulario">
+
+                    <p>
+                        <legend></legend>
+                        <label><i class="fa-solid fa-envelope"></i> Email:</label>
+                        <input type="Email" autofocus placeholder="Email" required><br><br>
+                    </p>
+                    <p>
+                        <label>Contraseña:</label>
+                        <input type="password" placeholder="Su contraseña" required><br><br>
+                    </p>
+                    <p>
+                        <label>Confirmar:</label>
+                        <input type="Confirmar password" placeholder="Confirmar contraseña" required><br><br>
+                    </p>
+                </form>
+        </fieldset>
+        <h3><b>Información personal</b></h3>
+            <form class="formulario">
+                <fieldset>
+                    <p>
+                        <legend></legend>
+                        <label>Nombre:</label>
+                        <input type="Nombre" placeholder="Nombre" required><br><br>
+                    </p>
+                    <p>
+                        <label>Apellido:</label>
+                        <input type="Apellido" placeholder="Apellido" required><br><br>
+                    </p>
+                    <p>
+                        <label>CUIT:</label>
+                        <input type="CUIT" placeholder="CUIT" required><br><br>
+                    </p>
+                    <p>
+                        <label> <i class="fa-solid fa-mobile"></i>Teléfono:</label>
+                        <input type="Teléfono" placeholder="Teléfono" required><br><br>
+                    </p>
+                    <!-- <button>Enviar</button> -->
+                    <input type="submit" value="Enviar">
+                </fieldset>
+            </form>
+        
+        <h2>¿Por Qué Registrarse?</h2>
+        <form>
+            <fieldset>
+
+                <article>Con tú registro podras comprar en nuestra tienda online</article>
+
+            </fieldset>
+
+        </form>
+
+    </main>
+
+    <footer>Todos los derechos reservados</footer>
+</body>
+
+</html>
