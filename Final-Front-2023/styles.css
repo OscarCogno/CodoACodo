@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.achicar{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    bottom: 30px;
+}
+nav{
+    background: black;
+    padding: 10px;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+
+h1 {
+    color: white;
+    text-align: right;
+}
+.fuente{
+    font-size: 20px; 
+}
+
+
+
+
+
