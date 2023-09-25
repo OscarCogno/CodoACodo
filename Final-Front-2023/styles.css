@@ -19,10 +19,20 @@ nav a{
 }
 
 .mover{
-    margin-top: 25%;
-    margin-right: 7%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    right: 7%;
+    bottom: 25%;
+    color: white;
     font-size: 18px;
+    height: 320px;
+    background-color: rgba(0, 0, 0, 0.5);  
+    padding: 10px;
 }
+
+
+
 
 
 
