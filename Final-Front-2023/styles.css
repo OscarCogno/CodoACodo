@@ -27,7 +27,7 @@ nav a{
     color: white;
     font-size: 18px;
     height: 320px;
-    background-color: rgba(0, 0, 0, 0.4);  
+    /* background-color: rgba(0, 0, 0, 0.4);   */
     padding: 10px;
 }
 
