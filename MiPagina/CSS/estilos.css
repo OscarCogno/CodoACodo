@@ -19,6 +19,13 @@ header{
 }
 
 
+
+.cambiofuente{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
 header h1{
     color: white;
     font-size: 30px;
