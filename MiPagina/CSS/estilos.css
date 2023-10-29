@@ -182,6 +182,7 @@ nav  a.activo{
     font-weight: bold;
 }
 
+
 /* final ofertas de la semana */
 
 .centrar{
@@ -199,6 +200,23 @@ footer{
     text-align: center;
     padding: 5px 0;
     margin-top: 20px;
+}
+
+.boton {
+    background: #ccf;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    border: 2px solid rgb(167, 15, 15);
+    color: blue;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+.boton:hover{
+    background-color: #468ee6;
 }
 
 
